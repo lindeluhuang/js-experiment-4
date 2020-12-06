@@ -1,0 +1,166 @@
+@font-face {
+    font-family: "HK Grotesk";
+    font-weight: 400;
+    src: url(../assets/hk-grotesk.woff);
+}
+
+
+body,html {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'HK Grotesk', sans-serif;
+    font-size: 32px;
+    line-height: 1.25;
+}
+
+.progress{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 10px;
+    background-color: #333333;
+    z-index: 1;
+    transition: background-color 0.5s;
+}
+
+.progress.white {
+    background-color: white;
+}
+
+header {
+    position: fixed;
+    top: 36px;
+    left: 36px;
+    z-index: 1;
+    transition: color 0.5s;
+}
+
+header.white {
+    color: #ffffff;
+}
+
+
+h1 {
+    font-size: 42px;
+    margin: 0;
+}
+
+
+section {
+    min-height: 100vh;
+    padding: 08px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section img {
+    height: 500px;
+    position: relative;
+}
+
+div.content {
+    position: relative;
+}
+
+div.square {
+    width:100px;
+    height: 100px;
+}
+
+div.circle {
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
+}
+
+
+
+section.s1 {
+    background-color: #9D777F;
+}
+
+section.s1 div.square {
+    background-color: #D2B1C2;
+
+    position: absolute;
+    top: 50px;
+    left: -50px;
+}
+
+section.s1 div.circle {
+    background-color: #48557D;
+
+    position: absolute;
+    bottom: 50px;
+    right: -50px;
+}
+
+section.s2{
+    background-color: #888978;
+}
+
+section.s2 div.square {
+    background-color: #D0B997;
+
+    position: absolute;
+    top: 50px;
+    left: -50px;
+}
+
+section.s2 div.circle {
+    background-color: #C6C4CF;
+
+    position: absolute;
+    bottom: 50px;
+    right: -50px;
+}
+
+section.s3 {
+    background-color: #5F5349;
+}
+
+section.s3 div.square {
+    background-color: #B55053;
+
+    position: absolute;
+    top: 50px;
+    left: -50px;
+}
+
+section.s3 div.circle {
+    background-color: #C08E65;
+
+    position: absolute;
+    bottom: 50px;
+    right: -50px;
+}
+
+section.s4 {
+    background-color: #A99C89;
+}
+
+section.s4 div.square {
+    background-color: #E1E0DF;
+
+    position: absolute;
+    top: 50px;
+    left: -50px;
+}
+
+section.s4 div.circle {
+    background-color: #3A3D5A;
+
+    position: absolute;
+    bottom: 50px;
+    right: -50px;
+}
